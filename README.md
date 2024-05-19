@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](./index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](./index.html)
+- Live Site URL: [Here]([https://your-live-site-url.com](https://sagnik-nandi.github.io/FAQ-accordion/))
 
 ## My process
 
