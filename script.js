@@ -3,7 +3,6 @@ var i;
 
 for ( i=0; i<qlist.length; i++){
     qlist[i].addEventListener("click", function(){
-        this.classList.toggle("show");
         var img=this.getElementsByTagName('img')[0];
         var answer=this.nextElementSibling;
         if (answer.style.display==="block") {
