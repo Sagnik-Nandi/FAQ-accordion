@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+body { 
+    background-color: hsl(275, 62%, 91%); 
+    background-image: url('./assets/images/background-pattern-desktop.svg'); 
+    background-repeat: no-repeat;
+}
+.mainbox {
+    background-color: white;
+    position: relative;
+    z-index:1;
+    max-width:520px;
+    border-style:outset;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 25px, 25px, 50px,black;
+    padding: 20px;
+    font-family: 'WorkSans';
+    font-style: normal;
+    color: hsl(292, 42%, 14%);
+}
+p { background-color: white;}
+img { background-color: white;}
+h1 { background-color: white; padding:0px; font-size: 48px; font-weight: 700;}
+
+.query{
+    background-color: white;
+    width: 100%;
+    border: none;
+    margin: 12px;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+.query img {
+    width: 5%;
+    float: right;
+}
+.answer {
+    background-color: white;
+    margin: 12px;
+    padding: 0;
+    max-height: 0;
+    overflow: visible;
+    transition: max-height 0.2s ease;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    display:none;
+}
+/* .show {background-color: rgb(235, 234, 234);} */
+.query:hover {
+    cursor: pointer;
+    color: hsl(292, 99%, 60%);
+}
+/* .query:after {
+    content: '\02795';
+    font-size: 14px;
+    background-color: hsl(292, 99%, 60%);
+    color: white;
+    border-radius: 50%;
+    float:right;
+}
+.show:after {
+    content: "\2796";
+    background-color: black;
+    transition: 0.2s ;
+} */
